@@ -45,7 +45,7 @@ public class MortgageCalculatorEnhanced {
         // Use NumberFormat to format the currency output
         String formattedPayment = NumberFormat.getCurrencyInstance().format(monthlyPayment);
 
-        System.out.println("-------------------------------------");
+        System.out.println("--------------------------------------");
         System.out.println("MORTGAGE CALCULATION SUMMARY 🏠");
         System.out.println("-------------------------------------");
         System.out.println("Principal: " + NumberFormat.getCurrencyInstance().format(principal));
